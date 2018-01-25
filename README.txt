@@ -1,6 +1,5 @@
 README file
 Po-Hsuan Lin
-USC ID: 6476376823
 
 // Abstract // 
 In this assignment, I created a client, a amazon web server and three backend servers to complete a reduction calculation task. Between client and the amazon web server, as known as aws, I constructed a TCP connection. Through the connection, data and instruction were sent to the server, where the majority of the code is concentrated at. For the second phase of the project, I created three UDP connections between aws and the three backend servers. These servers are in charge of the actual calculation, iterating through the data set and send answers back to aws. At the end of the project, aws combined the data collected from each individual backend servers, computed the reduction result and sent it all the way back to client through the previous TCP connection. 
